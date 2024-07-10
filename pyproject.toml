@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "websocketschat"
+version = "0.1.0"
+description = ""
+authors = ["karim mattar <karimhady111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+websockets = "^12.0"
+uvloop = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
